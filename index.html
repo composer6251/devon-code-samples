@@ -3,28 +3,47 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<link rel="shortcut icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="styles/normalize.css">
 	<link rel="stylesheet" href="styles/main.css">
 	
 	<title>Music</title>
     
 </head>
 		
-
 <body>
+	<div>
+		<span>This is a input element</span>
+		<input type="text" id="input" name="workout" placeholder="workout"/>
+		<button onclick="submit()">Submit</button>
+	</div>
+	<br/> <!--Line break-->
+	<br/> <!--Line break-->
+	<div>
+		<span>This is a select element</span>
+		<select name="dropdown" id="dropdown" onchange="selectDropDownItem()">
+			<option value="workout1">workout1</option>
+			<option value="workout2">workout2</option>
+			<option value="workout3">workout3</option>
+			<option value="workout4">workout4</option>
+		</select>
+	</div>
+	<br/>
+	<br/>
+		<input type="text" id="input1" name="workout" placeholder="workout"/>
+		<input type="text" id="input2" name="workout" placeholder="workout"/>
+		<input type="text" id="input3" name="workout" placeholder="workout"/>
+		<input type="text" id="input4" name="workout" placeholder="workout"/>
+		<input type="submit" onclick="submitForm()">
+	<br/>
+	<br/>
+	<span>Other types of user input</span>
+	<br/>
+	<div>
+		<span>Radio Button</span>
+		<input style="display: block;" type="radio">
+		<span>Checkbox</span>
+		<input style="display: block;" type="checkbox">
+	</div>
 
-	<button onclick="">I'm a button</button>
-	<input
-	type="text"
-	id="emailOrPhone"
-	name="emailOrPhone"
-	placeholder="Email or Phone"
-	unmask="true"
-	required
-  />
-	
-	
 </body>
 
 <script src="scripts/script.js"></script>
