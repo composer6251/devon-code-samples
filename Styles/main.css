@@ -1,0 +1,118 @@
+
+
+#nav_menu ul {
+	padding-left: 0em;
+	font-weight: bold;
+	
+}
+
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#nav_menu ul li a {
+	display: block;
+	width: 170px;
+	background-color: red;
+	padding-right: 3em;
+	padding-left: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	color: white; 
+}
+#nav_menu ul li {
+	list-style: none;
+	float: left;
+	position: relative;
+	display: block;
+}
+
+#nav_menu .current{
+	color: black;
+}
+
+#searchBox{
+	float: center;
+}
+
+body {
+	
+	
+	width: 800px;
+	max-width: 800px;
+	background-color: white;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+
+}
+
+header {
+	text-align: center;
+	border: solid black 2px;
+	height: 162px;
+}
+
+#rhythm_header{
+	background-image: url("images/rhythmlogo.jpg");
+}
+header h1 {
+/* 	text-align: center;
+ */	padding-left: 0;
+}
+
+header h2 {
+	text-align: center;
+}
+
+aside {
+	width: 200px;
+	float: right;
+	padding-left: 1px;
+}
+
+aside img {
+	transform-origin: left top;
+	transform: rotate(720deg);
+
+}
+
+#image1{
+	background-image: url("main_music.jpg");
+	width: 400 px;
+	height: 300 px;
+}
+
+aside ul li {
+	clear: display;
+	padding-bottom: 1.5em;
+}
+
+section {
+	float: left;
+	width: 400px;
+	
+}
+sectionHeader{
+	width: 1200px;
+}
+
+textarea{
+	height: 10em;
+	width: 25em;
+}
+
+
+#/* animate{
+animation: moveright 2s ease-in-out 0s infinite alternate;} */
+@keyframes moveright {
+	from {margin-left: 10%;}
+to {margin-left 80%;} }
+
+footer {
+	clear: both;
+}
